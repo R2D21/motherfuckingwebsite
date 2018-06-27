@@ -18,6 +18,19 @@ body{
     background-color:white;
 }
 
+.img
+{
+    width:2%;
+    heigt:auto;
+}
+
+.cat
+{
+    width:40%;
+    height:auto;
+    display:table-cell;
+}
+
 .wr
 {
     color:red;
@@ -29,6 +42,22 @@ body{
     margin-left:30vw;
     margin-bottom:-0.5vw;
     line-height:1.6;
+}
+
+.texte-illustration {
+    overflow: hidden; /* empêche le dépassement des flottants */
+}
+.texte-illustration .cat {
+    float: left;
+    margin: 5px 20px 5px 0;
+}
+.texte-illustration .illus-droite {
+    float: right;
+    margin: 5px 0 5px 20px;
+}
+.texte-illustration p {
+    overflow: hidden; /* Contexte de formatage. Force le paragraphe à
+    adapter sa largeur aux flottants adjacents. */
 }
 
 @font-face {
