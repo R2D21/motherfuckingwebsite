@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-}
 body{
     width:108%;
     height:auto;
@@ -26,7 +24,7 @@ body{
 
 .cat
 {
-    width:150px;
+    width:50%;
     height:auto;
 }
 
@@ -57,13 +55,6 @@ body{
 .texte-illustration p {
     overflow: hidden; /* Contexte de formatage. Force le paragraphe à
     adapter sa largeur aux flottants adjacents. */
-}
-
-@font-face {
-font-family: 'Papyrus Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Papyrus Condensed'), url('Papyrus-Condensed.woff') format('woff');
 }
 
 p{
