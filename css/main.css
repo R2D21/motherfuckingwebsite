@@ -1,12 +1,18 @@
+#invmode
+{
+    margin-bottom:-1.4vw;
+}
+
 body{
-    margin-left:-0.5vx;
-    width:100vw;
+    margin-left:-0.268vw;
+    width:97.92vw;
     height:auto;
     font-family:Open Sans,Arial;
     color:#454545;
     font-size:16px;
     padding:1em;
     text-align:justify
+    margin-bottom:1.8vw;
 }
 
 #contener
