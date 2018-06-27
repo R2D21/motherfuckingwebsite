@@ -22,6 +22,12 @@ body{
     heigt:auto;
 }
 
+.cat
+{
+    width:80%;
+    height:auto;
+}
+
 .wr
 {
     color:red;
