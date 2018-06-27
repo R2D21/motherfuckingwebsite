@@ -24,6 +24,7 @@ body{
     heigt:auto;
 }
 
+<<<<<<< HEAD
 .cat
 {
     width:40%;
@@ -31,6 +32,8 @@ body{
     display:table-cell;
 }
 
+=======
+>>>>>>> 91465e127474efd5e02ac8e37f35c97d41f5c54c
 .wr
 {
     color:red;
