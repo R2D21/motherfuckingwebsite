@@ -26,11 +26,8 @@ body{
 
 .cat
 {
-<<<<<<< HEAD
     width:100px;
-=======
     width:50px;
->>>>>>> 328d3eae0a60a9ad6a9900c9c917c84bedcd9793
     height:auto;
     display:table-cell;
 }
