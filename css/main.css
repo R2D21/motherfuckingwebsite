@@ -18,6 +18,12 @@ body{
     background-color:white;
 }
 
+.img
+{
+    width:2%;
+    heigt:auto;
+}
+
 .wr
 {
     color:red;
