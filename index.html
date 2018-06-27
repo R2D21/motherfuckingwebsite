@@ -23,6 +23,16 @@
 	  elmt.style.backgroundColor = "#FF00FF";
 	  elmt1.style.color = "blue";
       }
+      function normal()
+      {
+	  var elmt = document.getElementById("contener");
+	  elmt.style.backgroundColor = "#FF00FF";
+	  var elmt1 = document.getElementById("paragraphe");
+
+	  // on modifie son style
+	  elmt.style.backgroundColor = "#FF00FF";
+	  elmt1.style.color = "blue";
+      }
       demo();
     </script>
   </head>
@@ -211,6 +221,7 @@ of a good looking <span class="mfw">motherfuckingwebsite</span>.
       </li>
     </ul>
     <button onclick='psy();'>psy</button>
+    <button onclick='normal();'>psy</button>
     <div id="contrast">Add more contrast</div>
     <div id="invmode">Inverted mode</div>
     </div>
